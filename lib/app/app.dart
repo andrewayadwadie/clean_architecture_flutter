@@ -1,19 +1,21 @@
+import 'package:advanced_flutter_arabic/presentation/resources/theme_manager.dart';
 import 'package:flutter/material.dart';
 
 import '../presentation/resources/routes_manager.dart';
-import '../presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
-  // const MyApp({Key? key}) : super(key: key); //?Defult Constructor
-  //!Named Constructor
-  const MyApp._internal();
+  // named constructor
+  MyApp._internal();
 
-  static const MyApp _instance =
-      MyApp._internal(); //! singleton or single instance
-  factory MyApp() => _instance; //!Factory
+  int appState = 0;
+
+  static final MyApp _instance =
+      MyApp._internal(); // singleton or single instance
+
+  factory MyApp() => _instance; // factory
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
