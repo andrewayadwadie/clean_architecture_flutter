@@ -1,11 +1,11 @@
-import 'package:advanced_flutter_arabic/presentation/forgot_password/forgot_password_view.dart';
-import 'package:advanced_flutter_arabic/presentation/login/login_view.dart';
-import 'package:advanced_flutter_arabic/presentation/main/main_view.dart';
-import 'package:advanced_flutter_arabic/presentation/onboarding/onboarding_view.dart';
-import 'package:advanced_flutter_arabic/presentation/register/register_view.dart';
-import 'package:advanced_flutter_arabic/presentation/resources/strings_manager.dart';
-import 'package:advanced_flutter_arabic/presentation/splash/splash_view.dart';
-import 'package:advanced_flutter_arabic/presentation/store_details/store_details_view.dart';
+import '../forgot_password/forgot_password_view.dart';
+import '../login/login_view.dart';
+import '../main/main_view.dart';
+import '../onboarding/view/onboarding_view.dart';
+import '../register/register_view.dart';
+import 'strings_manager.dart';
+import '../splash/splash_view.dart';
+import '../store_details/store_details_view.dart';
 import 'package:flutter/material.dart';
 
 class Routes {
@@ -27,7 +27,7 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const LoginView());
       case Routes.onBoardingRoute:
         return MaterialPageRoute(builder: (_) => const OnBoardingView());
-        case Routes.registerRoute:
+      case Routes.registerRoute:
         return MaterialPageRoute(builder: (_) => const RegisterView());
       case Routes.forgotPasswordRoute:
         return MaterialPageRoute(builder: (_) => const ForgotPasswordView());
