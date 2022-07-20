@@ -1,7 +1,7 @@
 import '../../app/constants.dart';
-import '../responses/responses.dart';
+import '../../app/extensions.dart';
 import '../../domain/models.dart';
-import 'package:advanced_flutter_arabic/app/extensions.dart';
+import '../responses/responses.dart';
 
 extension CustomerResponseMapper on CustomerResponse? {
   Customer toDomain() {
