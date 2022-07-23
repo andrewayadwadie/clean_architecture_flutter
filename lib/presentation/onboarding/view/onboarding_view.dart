@@ -1,17 +1,16 @@
-import '../../../domain/models.dart';
-import '../viewmodel/onboarding_viewmodel.dart';
-
-import '../../resources/assets_manager.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/routes_manager.dart';
-import '../../resources/strings_manager.dart';
-import '../../resources/values_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../../../domain/models/models.dart';
+import '../../resources/assets_manager.dart';
+import '../../resources/color_manager.dart';
 import '../../resources/constants_manager.dart';
+import '../../resources/routes_manager.dart';
+import '../../resources/strings_manager.dart';
+import '../../resources/values_manager.dart';
+import '../viewmodel/onboarding_viewmodel.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({Key? key}) : super(key: key);

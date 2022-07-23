@@ -1,6 +1,6 @@
 import '../../app/constants.dart';
 import '../../app/extensions.dart';
-import '../../domain/models.dart';
+import '../../domain/models/models.dart';
 import '../responses/responses.dart';
 
 extension CustomerResponseMapper on CustomerResponse? {

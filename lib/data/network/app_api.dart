@@ -1,5 +1,5 @@
-import 'package:advanced_flutter_arabic/app/constants.dart';
-import 'package:advanced_flutter_arabic/data/responses/responses.dart';
+import '../../app/constants.dart';
+import '../responses/responses.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/http.dart';
 part 'app_api.g.dart';

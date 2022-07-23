@@ -1,4 +1,4 @@
-import 'package:advanced_flutter_arabic/app/constants.dart';
+import 'constants.dart';
 
 extension NonNullString on String? {
   String orEmpty() {
